@@ -8,7 +8,7 @@ workspace:
       image:
         value: codercom/enterprise-vnc:ubuntu
       container-based-vm:
-        value: true
+        value: false
   configure:
     start:
       value:
