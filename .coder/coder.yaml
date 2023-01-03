@@ -17,7 +17,7 @@ workspace:
             # Check if the project directory already exists
             mkdir /home/coder/team-env
             cd /home/coder/team-env
-            git clone git@github.com:sivasyams/team-env.git
+            git clone https://github.com/sivasyams/team-env.git
             
         - name: "Set default folder"
           command: curl https://gist.githubusercontent.com/bpmct/b48b99007284444eea94fe9e96d4a329/raw/set_first_dir.sh | sh
