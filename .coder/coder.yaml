@@ -6,7 +6,7 @@ workspace:
   specs:
     docker:
       image:
-        value: bencdr/team-env:latest
+        value: codercom/enterprise-vnc:ubuntu
       container-based-vm:
         value: true
   configure:
