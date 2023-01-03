@@ -3,6 +3,12 @@
 version: 0.2
 workspace:
   type: "docker"
+  specs:
+    docker:
+      image:
+        value: bencdr/team-env:latest
+      container-based-vm:
+        value: true
   configure:
     start:
       value:
