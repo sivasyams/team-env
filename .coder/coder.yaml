@@ -3,18 +3,6 @@
 version: 0.2
 workspace:
   type: "docker"
-  specs:
-    docker:
-      cpu:
-        value: 6
-      image:
-        value: bencdr/team-env:latest
-      container-based-vm:
-        value: true
-      memory:
-        value: 8
-      disk:
-        value: 20
   configure:
     start:
       value:
