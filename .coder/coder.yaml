@@ -14,7 +14,8 @@ workspace:
       value:
         - name: "Clone the git repository, if it doesn't exist"
           command: |
-            # Check if the project directory already exists 
+            # Check if the project directory already exists
+            mkdir /home/coder/team-env
             cd /home/coder/team-env
             git clone git@github.com:sivasyams/team-env.git
             
