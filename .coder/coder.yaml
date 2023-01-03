@@ -2,7 +2,7 @@
 # https://coder.com/docs/workspaces/workspaces-as-code/templates
 version: 0.2
 workspace:
-  type: "kubernetes"
+  type: "docker"
   specs:
     kubernetes:
       cpu:
